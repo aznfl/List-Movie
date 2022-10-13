@@ -6,3 +6,28 @@ header > #sort {
 header > #list-movie {
     margin: 30px;
 }
+
+.yellow {
+    color: #ffc107;
+}
+
+.navbar {
+    background-color: #3298DB;
+}
+
+.navbar-brand {
+    font-size: 2em;
+}
+
+strong > span {
+    color: black;
+}
+
+.row > .col-12 {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+header > section:nth-child(2) {
+    padding: 30px 0px;
+}
