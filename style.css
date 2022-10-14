@@ -1,5 +1,4 @@
 header > #sort {
-    /* background-color: aqua; */
     padding: 20px 0px;
 }
 
@@ -25,9 +24,13 @@ strong > span {
 
 .row > .col-12 {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 header > section:nth-child(2) {
     padding: 30px 0px;
+}
+
+#page {
+    width: 150px;
 }
