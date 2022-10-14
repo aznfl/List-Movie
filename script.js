@@ -37,16 +37,18 @@ getData();
 
 const getInput = btn_search.addEventListener("click", () => {
   a = API_Search + search.value;
+  page.value = '1'
   return getData(a);
 });
 
 const getPage = () => {
   for (let n = 2; n <= 20; n++) {
-    page.innerHTML += `<option value="${n}">${n}</option>`
+    page.innerHTML += `<option value="${n}">${n}</option>`;
   }
   page.addEventListener("click", () => {
-    a = API_List + page.value
-    return getData(a)
-  })
+    a = API_List + page.value;
+    search.value = null
+    return getData(a);
+  });
 };
 getPage();
